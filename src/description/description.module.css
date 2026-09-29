@@ -1,0 +1,78 @@
+.block {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.nav button,
+.toggle {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.nav button:hover,
+.toggle:hover {
+  background: var(--accent-soft);
+}
+
+.nav button.active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.content {
+  line-height: 1.6;
+}
+
+/* ключевые фрагменты */
+.content strong:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* первый абзац выделяем псевдоклассом */
+.content p:first-of-type {
+  font-size: 1.05em;
+}
+
+.details {
+  margin-top: 12px;
+  padding: 4px 16px;
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 6px;
+}
+
+/* ПЕРВЫЙ элемент списка — только псевдокласс */
+.list li:first-child {
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 1.1em;
+}
+
+.list li:hover {
+  color: var(--accent);
+}

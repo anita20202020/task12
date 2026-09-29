@@ -1,0 +1,49 @@
+.card {
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.placeholder {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  background: var(--accent-soft);
+  border-radius: 10px;
+}
+
+.name {
+  margin: 16px 0 4px;
+}
+
+.years {
+  margin: 0 0 16px;
+  color: var(--muted);
+}
+
+.link {
+  display: inline-block;
+  padding: 8px 20px;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.85;
+}
+
+.link:active {
+  transform: scale(0.97);
+}

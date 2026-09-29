@@ -1,0 +1,47 @@
+.block {
+  margin-top: 24px;
+  padding: 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.form button {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+}
+
+.form button:hover {
+  opacity: 0.85;
+}
+
+.ok {
+  color: green;
+}
